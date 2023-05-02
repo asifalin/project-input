@@ -1,14 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
-    <section>
-        
+  </head>
+  <body>
+    <h1>Student Data</h1>
+    <section id="main-input">
+      <form class="input-form">
+        <label for="">Student Name:</label>
+        <input type="text" placeholder="Enter your name" required />
+
+        <label for="">Father Name:</label>
+        <input type="text" placeholder="Enter your f/name" required />
+        <label for="">Date of Birth:</label>
+        <input type="date" placeholder="Enter your f/name" required />
+
+        <label for="">Class:</label>
+        <input type="text" placeholder="Enter your class" required />
+        <label for="">Roll No:</label>
+        <input type="number" placeholder="Enter your Roll no" required />
+        <label for="">Age:</label>
+        <input type="number" placeholder="Enter your Age" required />
+        <label for="">Mobile No:</label>
+        <input type="number" placeholder="Enter your mobile no" required />
+        <label for="">Address:</label>
+        <textarea name="" id="" cols="30" rows="5"></textarea>
+        <label for="">Remark:</label>
+        <input type="text" name="Enter your name" required />
+
+        <div class="sex">
+          <label>Sex:</label>
+          <input type="radio" class="al" name="sex" required />
+
+          <label>Male</label>
+          <input type="radio"  name="sex" required />
+          <label for="">Female</label>
+          <input type="radio"  name="sex" required />
+          <label for="">Other</label><br>
+          <input type="checkbox" name="check"> 
+        </div>
+
+        <button class="btn">Submit</button>
+      </form>
     </section>
-</body>
+  </body>
 </html>
