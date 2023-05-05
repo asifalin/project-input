@@ -10,42 +10,90 @@
   <body>
     <h1>Student Data</h1>
     <section id="main-input">
-      <form class="input-form">
-        <label for="">Student Name:</label>
-        <input type="text" placeholder="Enter your name" required />
+      <form id="input-form">
+        <label for="name">Student Name:</label>
+        <input id="name" type="text" placeholder="Enter your name" required />
 
-        <label for="">Father Name:</label>
-        <input type="text" placeholder="Enter your f/name" required />
-        <label for="">Date of Birth:</label>
-        <input type="date" placeholder="Enter your f/name" required />
+        <label for="fatherName">Father Name:</label>
+        <input
+          id="fatherName"
+          type="text"
+          placeholder="Enter your f/name"
+          required
+        />
 
-        <label for="">Class:</label>
-        <input type="text" placeholder="Enter your class" required />
+        <label for="semester">Class:</label>
+        <input
+          id="semester"
+          type="text"
+          placeholder="Enter your class"
+          required
+        />
+
         <label for="">Roll No:</label>
-        <input type="number" placeholder="Enter your Roll no" required />
+        <input
+          id="rollNo"
+          type="number"
+          placeholder="Enter your Roll no"
+          required
+        />
+
         <label for="">Age:</label>
-        <input type="number" placeholder="Enter your Age" required />
-        <label for="">Mobile No:</label>
-        <input type="number" placeholder="Enter your mobile no" required />
-        <label for="">Address:</label>
-        <textarea name="" id="" cols="30" rows="5"></textarea>
-        <label for="">Remark:</label>
-        <input type="text" name="Enter your name" required />
+        <input id="age" type="number" placeholder="Enter your Age" required />
 
-        <div class="sex">
-          <label>Sex:</label>
-          <input type="radio" class="al" name="sex" required />
+        <label for="">Mark:</label>
+        <input id="mark" type="text" placeholder="obtain/mark" required />
 
-          <label>Male</label>
-          <input type="radio"  name="sex" required />
-          <label for="">Female</label>
-          <input type="radio"  name="sex" required />
-          <label for="">Other</label><br>
-          <input type="checkbox" name="check"> 
-        </div>
+        <!-- <label for="gender">Gender:</label>
+           Male
+           <input
+            type="radio"
+            class="al"
+            name="gender"
+            id="gender"
+            value="Male"
+            required
+          />
+          Female
+          <input
+            type="radio"
+            name="gender"
+            id="gender"
+            required
+            value="Female"
+          />
+          Other
+          <input
+            type="radio"
+            name="gender"
+            id="gender"
+            required
+            value="other"
+          /> <br>
+          <label for="check"><input type="checkbox" name="check" id="gender" required />Remark</label>
+        </div> -->
 
-        <button class="btn">Submit</button>
+        <button class="btn" type="submit">Submit</button>
       </form>
+      <table border="5" id="table">
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Student Name</th>
+            <th>fatherName</th>
+
+            <th>Class</th>
+            <th>Roll No</th>
+            <th>Age</th>
+
+            <th>Mark</th>
+
+            <th>Pass/Fail</th>
+          </tr>
+        </thead>
+      </table>
     </section>
+
+    <script src="app.js"></script>
   </body>
 </html>

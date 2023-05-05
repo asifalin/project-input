@@ -10,33 +10,30 @@ body{
     margin: 0 auto;
     /* background-color: rgb(140, 140, 253); */
     height: 50%;
-    font-size: 1.5em;
+    /* font-size: 1.5em; */
     border: 2px solid gray;
-    padding: 2%;
+    padding: 1%;
     border-radius: 10px;
-    background-color: rgb(255, 128, 0);
+    /* background-color: rgb(255, 128, 0); */
+    background : linear-gradient(to right,rgb(255, 200, 0) 50%, rgb(255, 208, 0) 50% );
     color: black;
     margin-top: 2%;
-    box-shadow: 2px 3px 20px 10px  rgb(255, 128, 0) ;
+    box-shadow: 2px 3px 20px 10px  rgb(255, 128, 0);
 }
 body h1{
-    /* text-align: center; */
-margin:  0 auto;
-   border-bottom: 2px solid brown;
-   width:14%;
-   margin-top: 2%;
-   color: white;
+    text-align: center;
+    color: white;
 }
-.input-form{
+#input-form{
     display: flex;
     flex-direction: column;
+    line-height: 2rem;
 }
-.input-form input{
-    font-size: 20px;
+#input-form input{
+    /* font-size: 19px; */
     border-radius: 5px;
     border: none;
     outline: none;
-    /* padding-left: 2%; */
     padding: 10px;
 }
 .btn{
@@ -44,8 +41,7 @@ margin:  0 auto;
     padding: 2%;
     background-color: rgb(73, 120, 230);
     color: white;
-    font-size: 1.5rem;
-    /* padding-top:2% ; */
+    font-size: 1rem;
     margin-top: 2%;
     border-radius: 10px;
     border: none;
@@ -54,6 +50,11 @@ label input{
 margin: 10px 0;
 
 }
-.see{
-    /* display: block; */
+table{
+margin-top: 5%;
+width: 100%;
+    background-color: aliceblue;
+}
+table th{
+    
 }
